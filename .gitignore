@@ -130,4 +130,5 @@ dist
 .pnp.*
 
 # sqlite database
+prisma/migrations
 prisma/*.db

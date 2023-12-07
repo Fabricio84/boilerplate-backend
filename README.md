@@ -16,5 +16,10 @@ npm install
 ```
 # Gerando o banco sqlite3
 ```console
-npx prisma init --datasource-provider sqlite
+npx prisma migrate dev --name init
+```
+
+# Rodando os testes integrado
+```console
+npm test
 ```

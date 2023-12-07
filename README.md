@@ -1,7 +1,12 @@
 # boilerplate-backend
 Boilerplate Backend Typescript, Express, Prisma, Jest, Supertest and JWT Authentication
 
-# Iniciando o repositório
+# Instalando as dependências
+```console
+npm install
+```
+
+# Gerando o banco sqlite3
 ```console
 npx prisma init --datasource-provider sqlite
 ```
